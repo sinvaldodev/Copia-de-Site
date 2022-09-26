@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    background-color: #F6F6F6;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.logo {
+    width: 40%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation-menu {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li:not(:last-child) {
+     margin-right: 20px;
+}
+
+.menu li a {
+    font-family: 'Lato', sans-serif;
+    color: #60A298;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 15px;
+    
+}
+
+.menu li a:hover {
+    background: #4c4c4c0c;
+    color: #30ceb6;
+    transition: .35s;
+}
+
+.btn-contact {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-btn {
+    outline: none;
+    border: none;
+    height: 48px;
+    padding: 5px 25px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+    background-color: #60A298;
+    cursor: pointer;
+}
+
+
+.presentation {
+    background-image: url(https://cerpirondonia.com.br/wp-content/uploads/2022/09/2015217_DSC_1936-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -185px;
+    overflow: hidden;
+    opacity: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sobreposicao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #4c4c4c11;
+}
+
+.card-logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 170px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px -2px #4c4c4c;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.conteudo h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.conteudo img {
+    width: 80%;
+    margin: 15px 20px;
+}
+
+.cards-product {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 2em;
+}
+
+.cards {
+    width: 33%;
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4b4b4;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: -2em;
+    background: white;
+    border: 20px solid rgba(8, 8, 8, 0.062);
+    box-shadow: 0px 0px 15px -1px #4c4c4c98;
+    color: #39B0A2;
+    gap: 40px;
+}
+
+#card2 svg {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+#card3 {
+    z-index: 2;
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #8FCDC6 0%, #E87380 100%);
+    border: 20px solid white;
+    color: white;
+}
